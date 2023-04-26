@@ -8,7 +8,7 @@ Test technique pour Particeep.
 	
 ## Technologies
 Project is created with:
-* ![React JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+* ![React JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=react.js&logoColor=white)
 * ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 * ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 	
@@ -20,4 +20,6 @@ $ cd ../Particeep
 $ npm install
 $ npm run dev
 ```
+
+https://particeep-eight.vercel.app/
 
