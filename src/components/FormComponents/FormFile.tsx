@@ -24,13 +24,12 @@ function FormFile({ handleChange, file }: Props) {
               alt="upload image"
               className="h-12 w-12"
             />
-            <p className="text-[#7F858F] font-semibold">
+            <p className="text-[#7F858F] font-semibold text-center">
               Glissez votre fichier dans cette zone
             </p>
           </div>
         ) : (
           <p className="text-[#7F858F] font-semibold">
-            {" "}
             Votre fichier {file.name} a bien été déposé
           </p>
         )}

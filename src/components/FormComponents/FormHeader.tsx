@@ -9,7 +9,7 @@ const FormHeader = () => {
           <span className="font-bold">By</span>
           <img
             src="images/particeep-logo.jpg"
-            alt=""
+            alt="particeep logo"
             className="h-4 w-4 rounded"
           />
           <span className="font-semibold text-slate-700">Particeep</span>
