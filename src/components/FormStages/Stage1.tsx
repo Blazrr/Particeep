@@ -39,13 +39,11 @@ const Stage1 = () => {
 
 
   useEffect(() => {
-    console.log(selectedCountry)
     if (
       getDate === null ||
       (getDate && !(getDate.$y > 1900 && getDate.$y < 2015))
     ) {
       setBirthError(true);
-      console.log("test");
       return;
     } else {
       setBirthError(false);
