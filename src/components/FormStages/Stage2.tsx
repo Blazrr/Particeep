@@ -11,7 +11,7 @@ const Stage2 = () => {
         dispatch(prevStage())
     }
   return (
-    <motion.div className='flex justify-center items-center text-bold text-2xl mt-12 flex-col space-y-4 '
+    <motion.div className='flex justify-center items-center text-bold text-2xl mt-12 flex-col space-y-4 p-4'
     initial={{opacity:0,x:-100}}
     animate={{opacity:1,x:0}}
     exit={{opacity:0,x:100}}

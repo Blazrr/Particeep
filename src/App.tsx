@@ -8,7 +8,7 @@ function App() {
   return (
     <Provider store={store}>
 
-    <motion.div className="bg-[#FAFAFA] min-h-screen min-w-screen"
+    <motion.div className="bg-[#FAFAFA] min-h-screen min-w-screen p-8"
     initial={{opacity:0,y:-100}}
     animate={{opacity:1,y:0}}
     exit={{opacity:0}}
