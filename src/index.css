@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drop_area {
+    color: red !important;
+}
+.drop_zone {
+    color: red !important;
+   
+}
